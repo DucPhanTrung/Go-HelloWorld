@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a24b0ed-8232-4b90-b38f-0919070ce463" name="Default Changelist" comment="" />
+    <list default="true" id="6a24b0ed-8232-4b90-b38f-0919070ce463" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Main/app.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\Go-HelloWorld\Go-HelloWorld\Main" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Test_SumAllPrimesNumber in number_repo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
