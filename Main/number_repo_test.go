@@ -15,7 +15,7 @@ func Test_SumAllPrimesNumber(t *testing.T) {
 	for i := 0; i < len(Testcases); i++ {
 		numberRepo := NumberRepository{Testcases[i][0]}
 		sum, err := numberRepo.SumAllPrimesNumber()
-		assert.Equal(t, Testcases[i][1], sum)
+		assert.Equal(t, uint64(Testcases[i][1]), sum)
 		assert.Nil(t, err)
 	}
 }
@@ -23,6 +23,6 @@ func Test_SumAllPrimesNumber(t *testing.T) {
 func Test_SumAllPrimesNumber_WithNegativeNumber_ShouldBeError(t *testing.T) {
 	numberRepo := NumberRepository{-1}
 	sum, err := numberRepo.SumAllPrimesNumber()
-	assert.Equal(t, 0, sum)
+	assert.Equal(t, uint64(0), sum)
 	assert.Equal(t, err.Error(), "The input number has to be greater 0")
 }

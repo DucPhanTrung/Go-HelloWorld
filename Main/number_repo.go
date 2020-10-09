@@ -10,14 +10,14 @@ type NumberService interface {
 	SumAllPrimesNumber() (int, error)
 }
 
-func (_this NumberRepository) SumAllPrimesNumber() (int, error) {
-	sum := 0
+func (_this NumberRepository) SumAllPrimesNumber() (uint64, error) {
+	var sum uint64 = 0
 	if _this.number < 1 {
 		return 0, errors.New("The input number has to be greater 0")
 	}
 	for i := 1; i <= _this.number; i++ {
 		if isPrime(i) {
-			sum = sum + i
+			sum = sum + uint64(i)
 		}
 	}
 	return sum, nil

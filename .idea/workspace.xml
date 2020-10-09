@@ -26,7 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a24b0ed-8232-4b90-b38f-0919070ce463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Main/app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/number_repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/Main/number_repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/number_repo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Main/number_repo_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +50,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Financial Services" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\Go-HelloWorld\Go-HelloWorld\Main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.Test_SumAllPrimesNumber_WithMaxNumber in number_repo_test.go">
     <configuration name="Test_SumAllPrimesNumber in number_repo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Go-HelloWorld" />
       <working_directory value="$PROJECT_DIR$/Main" />
@@ -65,8 +68,19 @@
       <pattern value="^\QTest_SumAllPrimesNumber\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_SumAllPrimesNumber_WithMaxNumber in number_repo_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Go-HelloWorld" />
+      <working_directory value="$PROJECT_DIR$/Main" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Main/number_repo_test.go" />
+      <pattern value="^\QTest_SumAllPrimesNumber_WithMaxNumber\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.Test_SumAllPrimesNumber_WithMaxNumber in number_repo_test.go" />
         <item itemvalue="Go Test.Test_SumAllPrimesNumber in number_repo_test.go" />
       </list>
     </recent_temporary>
@@ -97,6 +111,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" width="816" height="774" key="#Intentions" timestamp="1602144174500">
@@ -107,21 +122,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602144034623" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1602145167836">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602210826491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602145167836" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1602145167836">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602210826491" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1602213098283">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602145167836" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1602145167836">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602213098283" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602156638741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1602213098283">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602145167836" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1602145167836">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602213098283" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602156638741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1602213098283">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602145167836" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602213098283" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602156638741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1602213098283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602213098283" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.133.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1602156638741" />
   </component>
 </project>
